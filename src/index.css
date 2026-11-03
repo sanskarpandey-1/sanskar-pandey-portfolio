@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* 
+body {
+    background-color: #FFF8F0;
+    background-image: radial-gradient(#FF6B35 0.8px, transparent 0.4px);
+    background-size: 24px 24px;
+    opacity: 1;
+} */
+ @media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+    background-color: #FFF8F0;
+    background-image: repeating-linear-gradient(
+        45deg,
+        #FF6B3508 0px,
+        #FF6B3508 1px,
+        transparent 5px,
+        transparent 15px
+    );
+}
